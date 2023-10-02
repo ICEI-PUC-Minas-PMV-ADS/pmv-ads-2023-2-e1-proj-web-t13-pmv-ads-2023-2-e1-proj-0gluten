@@ -1,35 +1,31 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+A alimentação com certeza é algo essencial na vida de qualquer ser vivo, é algo indispensável, para muitos prazerosa, para outros desafiadora. Pessoas com algum tipo de restrição alimentar acabam encontrando dificuldades na hora de se alimentar, principalmente com comidas fora de casa. Dentre as inúmeras dificuldades e restrições alimentares, uma das poucas conhecidas é a doença celíaca.
+
+A doença celíaca é uma doença crônica do intestino delgado de caráter autoimune desencadeada pela exposição ao glúten em indivíduos geneticamente predispostos. Ou seja, o indivíduo que tem a doença, ao ingerir algum alimento fonte de glúten, desencadeia uma reação do seu próprio sistema imunológico contra as células do intestino.
+
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O problema que se apresenta é a dificuldade de encontrar lugares seguros para a alimentação em lugares públicos para pessoas celíacas. Muitos estabelecimentos destinados à alimentação não conhecem o que é glúten e como isso afeta os portadores da doença celíaca, sendo que para os mesmos, qualquer quantidade de glúten, mesmo que ínfima, pode causar manifestações negativas da condição.
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo geral desse projeto é a elaboração e desenvolvimento de um sistema que liste ambientes seguros para que o indivíduo celíaco tenha informações de lugares que conhecem o que é glúten e ofereça cardápios ou alimentos sem que haja o risco de ingerir algum alimento com glúten. O mesmo também deve oferecer uma forma de cadastro para estabelecimentos interessados em constituir a lista de lugares seguros para celíacos.
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+O glúten não desaparece quando os alimentos são assados ou cozidos, por isso, a restrição na dieta deve ser seguida à risca. O glúten agride e danifica as vilosidades do intestino delgado e prejudica a absorção do alimento.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O público alvo refere-se às pessoas com restrição alimentar ao glúten e pessoas que convivem com/conhecem portadores dessa condição a fim de ajudá-los(as).
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+Para conhecer melhor foi realizada uma entrevista com uma pessoa portadora da doença celíaca que teve a doença descoberta aos 8 anos de idade, sendo assim foi possível levantar alguns pontos a serem analisados para a construção do sistema, são eles:
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-
+1. Dificuldades em encontrar lugares que possuem opções de alimentos sem glúten para o consumo;
+2. Falta de informação e conhecimento de funcionários no estabelecimento que conhecem de fato o que é glúten;
+3. Vergonha na hora de fazer o pedido para que forneça o cardápio sem o alimento que possua glúten.
