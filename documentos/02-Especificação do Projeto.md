@@ -15,7 +15,8 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Fácil acesso a estabelecimentos que apresentam propostas de comidas sem glúten;
+<td>
+• Fácil acesso a estabelecimentos que apresentam propostas de comidas sem glúten;
 • Fácil acesso a locais que conheçam a doença celíaca e seguem procedimentos para evitar que portadores dessa condição se alimentem com alimentos a base de glúten ou com vestígios do mesmo;
 • Segurança para se alimentar.
 </td>
