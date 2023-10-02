@@ -1,25 +1,24 @@
-# Título do Projeto
+# 0 Glúten
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1° Semestre/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Sistema destinado ao suporte à pessoas portadoras da doença celíaca e a quem conhece estes indivíduos a encontrarem locais seguros para alimentação sem glúten em sua região. O mesmo também é destinado aos donos de estabelecimentos que já são preparados/querem se preparar para ter um ambiente seguro para os portadores da condição.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Gabriel Favaro
+* Ligia Maria Gonçalves
+* Pedro Arthur Silva Santos
+* Victor Gabriel Cardoso Pio
+* Vinicius de Souza Paiva
 
 ## Orientador
 
-* Nome completo do professor
+* José Wilson da Costa
 
 # Documentação
 
