@@ -51,7 +51,7 @@
 |--------------------|---------------------------|----------------------------------|
 | Paciente portadora da doença celíaca/pessoa que convive com portadores da doença                | Encontrar locais que saibam sobre a doença celíaca e ofereçam produtos alimentícios adequados para quem porta a condição                       | Comer produtos no local ou fazer encomendas para entrega em minha casa com a segurança que o produto não contém glúten e é seguro para o consumo                              |
 | Dono de estabelecimento alimentício                | Cadastrar meu estabelecimento para avaliação dos responsáveis e colocá-lo no sistema de estabelecimentos seguros para celíacos                       | Oferecer meus produtos sem glúten para quem precisa e ajudar os celíacos a me localizarem. Além de conseguir captar outros públicos.                              |
-
+|Pessoas que convivem com portadores da doença celíaca|Informar onde buscar alimentos e condimentos sem glúten |Até mesmo para preparar algum almoço/jantar em casa e acaba sendo complicado , pois muitos codimentos possuem gluten e pode haver a contaminação cruzada ao preparar uma refeição usando a mesma panela; 
 ## Requisitos do Projeto
 
 
