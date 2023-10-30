@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Glúten Free</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Glúten Free</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Locais sem glúten</a>
+            <a class="nav-link" href="about_us.html">Sobre nós</a>
+            <a class="nav-link" href="register.html">Registre seu estabelecimento</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <div class="container margin-register">
+      <div class="col-md-8 offset-md-2">
+        <div class="texto-register">
+          <h1> Você vende alimentos sem glúten?<br>
+            Cadastre seu estabelecimento aqui!</h1>
+        </div>
+        <form>
+          <div class="mb-3">
+            <input type="text" placeholder="Seu nome*" required class="form-control" id="seu-nome">
+          </div>
+          <div class="mb-3">
+            <input type="text" placeholder="Nome do estabelecimento*" required class="form-control"
+              id="nome-estabelecimento">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" id="alimentos-sem-gluten"></textarea>
+            <label for="floatingTextarea">Quais alimentos você oferece sem glúten?*</label>
+          </div>
+          <div class="mb-3 link-cardapio">
+            <input type="text" placeholder="Link para o cardápio (digital ou para download)" required
+              class="form-control" id="cardapio">
+          </div>
+          <p>Caso os alimentos sejam produzidos no próprio estabelecimento, grave um vídeo mostrando a cozinha e seus
+            procedimentos para que não ocorra contaminação dos alimentos com o glúten. Hospede no YouTube e insira o
+            link aqui.</p>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Eu concordo com os procedimentos de avaliação e afirmo
+              que verifiquei os mesmos antes de enviar o formulário.</label>
+          </div>
+          <div class="mb-3">
+            <input type="text" placeholder="Link do vídeo (hospedado no YouTube)" required class="form-control"
+              id="nome-estabelecimento">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar o formulário</button>
+        </form>
+      </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <p>0 Glúten 2023. Todos os direitos reservados ©</p>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
