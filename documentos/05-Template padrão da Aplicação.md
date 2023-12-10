@@ -12,7 +12,7 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 <br>
  <ul>
-<li>Cores: RGB: #3E497A, whitesmoke, goldenrod e white;</li>
+<li>Cores: RGB: #2ecc71, white, Green;</li>
 <li>Font-family: Arial, Helvetica, sans-serif e cursive.</li>
 <li>Font-size: 15px e 28px. </li>
 </ul>
@@ -22,6 +22,6 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <h3><b>Tela de visualização da pesquisa dos locais sem Glúten</b></h3>
 <p>Exibe informações sobre os lugares sem gluten:.</p>
 <figure> 
-  <img src="[codigo-fonte/imagens/Locais sem gluten.PNG](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-0gluten/blob/main/codigo-fonte/imagens/Locais%20sem%20gluten.PNG?raw=true)https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-0gluten/blob/main/codigo-fonte/imagens/Locais%20sem%20gluten.PNG?raw=true">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-0gluten/blob/main/codigo-fonte/imagens/Locais%20sem%20gluten.PNG?raw=true">
   <figcaption> Figura 1 - Tela Locais sem Glúten
 </figure>
