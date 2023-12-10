@@ -10,11 +10,12 @@ Sistema destinado ao suporte à pessoas portadoras da doença celíaca e a quem 
 
 ## Integrantes
 
-* Gabriel Favaro
+
 * Ligia Maria Gonçalves
-* Pedro Arthur Silva Santos
 * Victor Gabriel Cardoso Pio
-* Vinicius de Souza Paiva
+* Pedro Arthur Silva Santos
+
+
 
 ## Orientador
 

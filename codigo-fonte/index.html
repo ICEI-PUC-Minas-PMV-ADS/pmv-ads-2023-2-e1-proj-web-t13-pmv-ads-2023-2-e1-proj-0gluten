@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <!-- Adicione um título à sua página -->
+  <title>Consulta de Locais Sem Glúten</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      /* Fundo mais claro */
+      color: #495057;
+      /* Texto mais escuro */
+    }
+
+    header {
+      background-color: #28a745;
+      /* Verde mais escuro para o cabeçalho */
+      color: #ffffff;
+      padding: 20px 0;
+      /* Aumenta o padding para tornar a barra mais alta */
+      text-align: center;
+      /* Centraliza o texto no cabeçalho */
+    }
+
+    header a {
+      color: #ffffff;
+      font-size: 18px;
+      /* Aumenta o tamanho do texto do link no cabeçalho */
+      margin: 0 20px;
+      /* Aumenta a margem entre os links no cabeçalho */
+      text-decoration: none;
+      /* Remove o sublinhado dos links */
+    }
+
+    main {
+      padding: 40px 0;
+      text-align: center;
+      /* Centraliza o conteúdo principal */
+    }
+
+    .container-fluid {
+      max-width: 1200px;
+      margin: 0 auto;
+      /* Centraliza o conteúdo na tela */
+    }
+
+    .centered-image {
+      text-align: center;
+    }
+
+    .centered-select {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      /* Aumenta o tamanho do título */
+      margin-bottom: 20px;
+      color: #28a745;
+      /* Verde mais escuro */
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 30px;
+      /* Aumenta o padding do formulário */
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px 0px #000000;
+      display: inline-block;
+      /* Alinha o formulário ao centro */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      /* Aumenta a margem inferior das etiquetas */
+      color: #155724;
+      /* Verde escuro */
+      font-size: 18px;
+      /* Aumenta o tamanho do texto das etiquetas */
+    }
+
+    select,
+    input[type="button"] {
+      margin-bottom: 20px;
+      /* Aumenta a margem inferior dos campos de entrada */
+      width: 100%;
+      /* Preenche a largura do contêiner do formulário */
+      padding: 10px;
+      /* Aumenta o padding dos campos de entrada */
+      box-sizing: border-box;
+      /* Garante que a largura inclua preenchimento e borda */
+    }
+
+    input[type="button"] {
+      background-color: #28a745;
+      /* Verde mais escuro para o botão */
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 18px;
+      /* Aumenta o tamanho do texto do botão */
+    }
+
+    footer {
+      background-color: #28a745;
+      /* Verde mais escuro para o rodapé */
+      color: #ffffff;
+      padding: 20px 0;
+      /* Aumenta o padding do rodapé */
+      text-align: center;
+      /* Centraliza o texto no rodapé */
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Glúten Free</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="about_us.html">Sobre nós</a>
+            <a class="nav-link" href="register.html">Registre seu estabelecimento</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-fluid index-padding">
+      <div class="row">
+        <div class="col-md-12 centered-image">
+          <img src="img/download.png" alt="Imagem de Alimentos Sem Glúten" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 centered-select">
+          <h1>Encontre locais com <br> alimentos sem glúten, <br> faça sua consulta aqui!</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="index-left">
+            <form id="filtroForm">
+              <label for="estado">Estado:</label>
+              <select id="estado" name="Estado">
+                <option selected>Selecione o Estado</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="rj">Rio de Janeiro</option>
+                <!-- Trocado São Paulo por Rio de Janeiro -->
+              </select><br>
+              <label for="cidade">Cidade:</label>
+              <select id="cidade" name="Cidade">
+                <option selected>Selecione a Cidade </option>
+                <option value="belohorizonte">Belo Horizonte</option>
+                <option value="niteroi">Niterói</option>
+                <!-- Trocado Embu das Artes por Niterói -->
+              </select><br><br>
+              <label for="lugar">Lugar:</label>
+              <select id="lugar" name="lugar">
+                <option value="selecione">Selecione um lugar</option>
+                <option value="restaurante">Restaurante</option>
+                <!-- Removido Bar e Mercado -->
+              </select>
+              <input type="button" value="Filtrar" onclick="filtrarOpcoes()">
+            </form>
+
+            <script>
+              function filtrarOpcoes() {
+                var estado = document.getElementById('estado').value;
+                var cidade = document.getElementById('cidade').value;
+                var lugar = document.getElementById('lugar').value;
+
+                if (estado !== 'Selecione o Estado' && cidade !== 'Selecione a Cidade' && lugar === 'restaurante') {
+                  if (estado === 'mg' && cidade === 'belohorizonte') {
+                    // Construa a URL com as informações do restaurante
+                    var url = 'informacoes_restaurante.html?nome=La_Macelleria_Vila_da_Serra&estado=' + estado + '&cidade=' + cidade;
+
+                    // Redirecione para a nova página
+                    window.location.href = url;
+                  } else if (estado === 'rj' && cidade === 'niteroi' && lugar === 'restaurante') {
+                    // Construa a URL com as informações do restaurante no Rio de Janeiro, Niterói
+                    var url = 'informacoes_restaurante_rj_niteroi.html';
+
+                    // Redirecione para a nova página
+                    window.location.href = url;
+                  } else {
+                    alert('Nenhum restaurante encontrado com os filtros selecionados.');
+                  }
+                } else {
+                  alert('Por favor, selecione corretamente o estado, a cidade e o tipo de lugar (Restaurante).');
+                }
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <!-- Seu rodapé HTML permanece o mesmo -->
+  </footer>
+</body>
+
+</html>
