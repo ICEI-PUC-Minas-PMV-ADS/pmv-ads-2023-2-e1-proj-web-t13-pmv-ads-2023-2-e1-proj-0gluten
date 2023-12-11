@@ -5,7 +5,7 @@
 
 ### Tela de Registro (RF-001)
 
-Responsável: Lígia
+Responsável: Lígia e Victor
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Registre seu estabelecimento”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -31,21 +31,24 @@ Exemplo da tela de Registro:
 ●script.js
 
 
+#### Filtro de Pesquisa
+
+Responsável: Lígia e Victor
+
+O filtro de pesquisa está disponível nas página Locais sem Gluten. As estruturas de dados foram baseadas em HTML, CSS.
+
+Exemplo do filtro de pesquisa na tela de locais sem Glúten:
+
+#### Requisito atendido
+
+[RF-02: Requisito atendido]
+
+O site deve permitir o usuario a fazer filtros.
+![Untitled Diagram-Page-1 drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-0gluten/blob/main/codigo-fonte/imagens/Filtro%20de%20pesquisa.PNG?raw=true)
+
+
 #### Instruções de acesso
+1.	Abra um navegador de Internet e informe a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-0gluten/blob/main/codigo-fonte/index.html
+2.	Ao clicar em “Cadastrar” no canto superior direito da tela, terá acesso a página de registro.
 
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
