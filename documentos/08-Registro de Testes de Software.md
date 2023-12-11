@@ -9,6 +9,6 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
   Responsável: Lígia.
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/gluten.io/issues/1#issue-2034577716
+https://github.com/ICEI-PUC-Minas-PMV-ADS/gluten.io/issues/1#issue-2034577716.mov
   
   </li>
